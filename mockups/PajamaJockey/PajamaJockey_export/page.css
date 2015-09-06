@@ -1,0 +1,988 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#menubar {
+    float: left;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(19, 19, 19);
+    -webkit-box-shadow: rgb(19, 19, 19) 0px 3px 13px 3px;
+    box-shadow: rgb(19, 19, 19) 0px 3px 13px 3px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+#YTthumb {
+    float: left;
+    height: 64px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 64px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#text {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'Droid Serif';
+    position: absolute;
+    left: 75px;
+    top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-image:url("img/bg.jpg");
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    font-family: 'Droid Serif';
+    color: rgb(255, 255, 255);
+}
+
+#q-item {
+    float: none;
+    height: 75px;
+    margin-left: 0%;
+    margin-top: 54px;
+    clear: none;
+    width: 100%;
+    margin-right: 0px;
+    background-color: rgb(2, 2, 33);
+    border-top-color: rgb(17, 17, 86);
+    border-right-color: rgb(17, 17, 86);
+    border-bottom-color: rgb(17, 17, 86);
+    border-left-color: rgb(17, 17, 86);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-bottom: 0px;
+}
+
+#q-item1 {
+    float: none;
+    height: 75px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    margin-right: 0px;
+    border-top-color: rgb(60, 60, 166);
+    border-right-color: rgb(60, 60, 166);
+    border-bottom-color: rgb(60, 60, 166);
+    border-left-color: rgb(60, 60, 166);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-bottom: 0px;
+    background-color: rgb(2, 2, 33);
+}
+
+#box2 {
+    float: left;
+    height: 64px;
+    margin-left: 5px;
+    margin-top: 5px;
+    clear: none;
+    width: 64px;
+    min-height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#box {
+    float: left;
+    height: 32px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 32px;
+    margin-right: 0px;
+    position: fixed;
+    top: 5px;
+    left: auto;
+    right: 5px;
+    background-color: rgb(255, 0, 0);
+}
+
+#q-item2 {
+    float: none;
+    height: 75px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    margin-right: 0px;
+    border-top-color: rgb(60, 60, 166);
+    border-right-color: rgb(60, 60, 166);
+    border-bottom-color: rgb(60, 60, 166);
+    border-left-color: rgb(60, 60, 166);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-bottom: 0px;
+    display: block;
+    background-color: rgb(2, 2, 33);
+}
+
+#box3 {
+    float: left;
+    height: 64px;
+    margin-left: 5px;
+    margin-top: 5px;
+    clear: none;
+    width: 64px;
+    min-height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#q-item3 {
+    float: none;
+    height: 75px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    margin-right: 0px;
+    border-top-color: rgb(60, 60, 166);
+    border-right-color: rgb(60, 60, 166);
+    border-bottom-color: rgb(60, 60, 166);
+    border-left-color: rgb(60, 60, 166);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-bottom: 0px;
+    display: block;
+    background-color: rgb(2, 2, 33);
+}
+
+#box4 {
+    float: left;
+    height: 64px;
+    margin-left: 5px;
+    margin-top: 5px;
+    clear: none;
+    width: 64px;
+    min-height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#box1 {
+    float: left;
+    height: 64px;
+    margin-left: 5px;
+    margin-top: -1px;
+    clear: none;
+    width: 64px;
+    min-height: 50px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+#MenuBox {
+    float: left;
+    height: 376px;
+    margin-left: 0%;
+    margin-top: 35px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    border-top-color: rgb(2, 2, 33);
+    border-right-color: rgb(2, 2, 33);
+    border-bottom-color: rgb(2, 2, 33);
+    border-left-color: rgb(2, 2, 33);
+    border-top-width: 2px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#OptionIcon {
+    float: left;
+    height: 48px;
+    margin-left: 13px;
+    margin-top: 13px;
+    clear: none;
+    width: 48px;
+    background-color: rgb(255, 0, 0);
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+
+#MenuOption {
+    float: left;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#text1 {
+    float: left;
+    font-size: 32px;
+    width: 233px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 8px;
+    margin-top: 13px;
+    clear: none;
+    min-height: 48px;
+    min-width: 233px;
+}
+
+#MenuOption1 {
+    float: left;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+#OptionIcon1 {
+    float: left;
+    height: 48px;
+    margin-left: 13px;
+    margin-top: 13px;
+    clear: none;
+    width: 48px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    background-color: rgb(255, 0, 0);
+}
+
+#text2 {
+    float: left;
+    font-size: 32px;
+    width: 73.968254%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 8.000001450000001px;
+    margin-top: 13px;
+    clear: none;
+    min-height: 48px;
+    min-width: 233px;
+}
+
+#MenuOption2 {
+    float: left;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+#OptionIcon2 {
+    float: left;
+    height: 48px;
+    margin-left: 13px;
+    margin-top: 13px;
+    clear: none;
+    width: 48px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    background-color: rgb(255, 0, 0);
+}
+
+#text3 {
+    float: left;
+    font-size: 32px;
+    width: 73.968254%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 8.000001450000001px;
+    margin-top: 13px;
+    clear: none;
+    min-height: 48px;
+    min-width: 233px;
+}
+
+#MenuOption3 {
+    float: left;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+#OptionIcon3 {
+    float: left;
+    height: 48px;
+    margin-left: 13px;
+    margin-top: 13px;
+    clear: none;
+    width: 48px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    background-color: rgb(255, 0, 0);
+}
+
+#text4 {
+    float: left;
+    font-size: 32px;
+    width: 73.968254%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 8.000001450000001px;
+    margin-top: 13px;
+    clear: none;
+    min-height: 48px;
+    min-width: 233px;
+}
+
+#MenuOption4 {
+    float: left;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+#OptionIcon4 {
+    float: left;
+    height: 48px;
+    margin-left: 13px;
+    margin-top: 13px;
+    clear: none;
+    width: 48px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    background-color: rgb(255, 0, 0);
+}
+
+#text5 {
+    float: left;
+    font-size: 32px;
+    width: 73.968254%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 8.000001450000001px;
+    margin-top: 13px;
+    clear: none;
+    min-height: 48px;
+    min-width: 233px;
+}
+
+@media only screen and (max-width: 599px) {
+    #menubar {
+        float: left;
+        height: 75px;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        width: 100%;
+        position: fixed;
+        background-color: rgb(19, 19, 19);
+    }
+
+    #YTthumb {
+        float: left;
+        height: 64px;
+        clear: none;
+        width: 64px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #text {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        clear: none;
+        min-height: 0px;
+        font-family: 'Droid Serif';
+    }
+
+    #q-item {
+        clear: none;
+        width: 100%;
+    }
+
+    #q-item1 {
+        clear: none;
+        width: 100%;
+    }
+
+    #q-item2 {
+        clear: none;
+        width: 100%;
+    }
+
+    #q-item3 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #text {
+        bottom: auto;
+    }
+
+    #menubar {
+        display: block;
+        right: auto;
+        bottom: auto;
+    }
+
+    #q-item {
+        float: none;
+        clear: none;
+        width: 100%;
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: rgb(60, 60, 166);
+        border-right-color: rgb(60, 60, 166);
+        border-bottom-color: rgb(60, 60, 166);
+        border-left-color: rgb(60, 60, 166);
+    }
+
+    #YTthumb {
+        width: 64px;
+        bottom: auto;
+        right: auto;
+    }
+
+    #q-item1 {
+        float: none;
+        clear: none;
+        width: 100%;
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0%;
+        border-top-color: rgb(60, 60, 166);
+        border-right-color: rgb(60, 60, 166);
+        border-bottom-color: rgb(60, 60, 166);
+        border-left-color: rgb(60, 60, 166);
+        height: 75px;
+    }
+
+    #box2 {
+        float: left;
+        height: 64px;
+        margin-left: 5px;
+        margin-top: 5px;
+        clear: none;
+        width: 64px;
+        min-height: 50px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #box {
+        float: left;
+        height: 32px;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        width: 32px;
+        margin-right: 0px;
+        position: fixed;
+        top: 5px;
+        left: auto;
+        right: 5px;
+        background-color: rgb(255, 0, 0);
+    }
+
+    #q-item2 {
+        clear: none;
+        width: 100%;
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        margin-top: 0px;
+        border-top-color: rgb(60, 60, 166);
+        border-right-color: rgb(60, 60, 166);
+        border-bottom-color: rgb(60, 60, 166);
+        border-left-color: rgb(60, 60, 166);
+        height: 75px;
+    }
+
+    #box3 {
+        float: left;
+        height: 64px;
+        margin-left: 5px;
+        margin-top: 5px;
+        clear: none;
+        width: 64px;
+        min-height: 50px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #q-item3 {
+        width: 100%;
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        margin-top: 0px;
+        border-top-color: rgb(60, 60, 166);
+        border-right-color: rgb(60, 60, 166);
+        border-bottom-color: rgb(60, 60, 166);
+        border-left-color: rgb(60, 60, 166);
+        height: 75px;
+        display: block;
+        clear: none;
+    }
+
+    #box4 {
+        float: left;
+        height: 64px;
+        margin-left: 5px;
+        margin-top: 5px;
+        clear: none;
+        width: 64px;
+        min-height: 50px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #box1 {
+        float: left;
+        height: 64px;
+        margin-left: 5px;
+        margin-top: -1px;
+        clear: none;
+        width: 64px;
+        min-height: 50px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        display: block;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #MenuBox {
+        float: left;
+        height: auto;
+        clear: none;
+        background-color: rgb(19, 19, 19);
+        border-top-color: rgb(2, 2, 33);
+        border-right-color: rgb(2, 2, 33);
+        border-bottom-color: rgb(2, 2, 33);
+        border-left-color: rgb(2, 2, 33);
+        border-top-width: 2px;
+        border-right-width: 0px;
+        border-bottom-width: 2px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+    }
+
+    #OptionIcon {
+        float: left;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 13px;
+        clear: none;
+        width: 48px;
+        background-color: rgb(255, 0, 0);
+        margin-right: 13px;
+        margin-bottom: 13px;
+    }
+
+    #MenuOption {
+        float: left;
+        height: 75px;
+        clear: none;
+        width: 100%;
+        border-top-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(255, 255, 255);
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+    }
+
+    #text1 {
+        float: left;
+        font-size: 32px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        clear: none;
+        min-height: 48px;
+    }
+
+    #MenuOption1 {
+        float: left;
+        height: 75px;
+        clear: none;
+        width: 100%;
+        border-top-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(255, 255, 255);
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        display: block;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #OptionIcon1 {
+        float: left;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 13px;
+        clear: none;
+        width: 48px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+        background-color: rgb(255, 0, 0);
+    }
+
+    #text2 {
+        float: left;
+        font-size: 32px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 8.000001450000001px;
+        margin-top: 13px;
+        clear: none;
+        min-height: 48px;
+        width: 233px;
+    }
+
+    #MenuOption2 {
+        float: left;
+        height: 75px;
+        clear: none;
+        width: 100%;
+        border-top-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(255, 255, 255);
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        display: block;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #OptionIcon2 {
+        float: left;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 13px;
+        clear: none;
+        width: 48px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+        background-color: rgb(255, 0, 0);
+    }
+
+    #text3 {
+        float: left;
+        font-size: 32px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 8.000001450000001px;
+        margin-top: 13px;
+        clear: none;
+        min-height: 48px;
+        width: 233px;
+    }
+
+    #MenuOption3 {
+        float: left;
+        height: 75px;
+        clear: none;
+        width: 100%;
+        border-top-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(255, 255, 255);
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        display: block;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #OptionIcon3 {
+        float: left;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 13px;
+        clear: none;
+        width: 48px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+        background-color: rgb(255, 0, 0);
+    }
+
+    #text4 {
+        float: left;
+        font-size: 32px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 8.000001450000001px;
+        margin-top: 13px;
+        clear: none;
+        min-height: 48px;
+        width: 233px;
+    }
+
+    #MenuOption4 {
+        float: left;
+        height: 75px;
+        clear: none;
+        width: 100%;
+        border-top-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(255, 255, 255);
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        display: block;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #OptionIcon4 {
+        float: left;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 13px;
+        clear: none;
+        width: 48px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+        background-color: rgb(255, 0, 0);
+    }
+
+    #text5 {
+        float: left;
+        font-size: 32px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 8.000001450000001px;
+        margin-top: 13px;
+        clear: none;
+        min-height: 48px;
+        width: 233px;
+    }
+}
+

@@ -1,0 +1,319 @@
+html, body {
+    height:100%;
+}
+
+body {
+    background-color: #131313;
+    background-image: url(images/bg.jpg);
+    padding:0px;
+    margin:0px;
+    color:white;
+    font-family: 'Droid Serif', serif;
+    font-size:16px;
+}
+
+@media all {
+    
+    .fa-play {
+        margin-left:2px;
+    }
+
+    #pagecontent {
+        margin-top:64px;
+    }
+    #menubar {
+        height:48px;
+        background-color: #131313;
+        position:fixed;
+        width:100%;
+        top:0px;
+        z-index: 100;
+    }
+
+    .menugrad {
+        background: -moz-linear-gradient(top,  rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.13) 19%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.15)), color-stop(19%,rgba(255,255,255,0.13)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.15) 0%,rgba(255,255,255,0.13) 19%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(255,255,255,0.15) 0%,rgba(255,255,255,0.13) 19%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(255,255,255,0.15) 0%,rgba(255,255,255,0.13) 19%,rgba(255,255,255,0) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(255,255,255,0.15) 0%,rgba(255,255,255,0.13) 19%,rgba(255,255,255,0) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    }
+
+    .menugrad:hover {
+
+    }
+
+    
+    .YTthumb {
+        margin-top:13px;
+        float:left;
+        width: 64px;
+        height: 48px;
+        margin-left: 25px;
+    }
+    
+    #songInfo {
+        float:left;
+        min-height: 25px;
+        left:75px;
+        width:200px;
+        padding-left:25px;
+        height:48px;
+    }
+
+    #NowPlaying {
+        float:left;
+        margin-top:5px;
+    }
+    
+    #songTitle {
+        float:left;
+        font-style: italic;
+    }
+    .clearboth {
+        clear:both;
+    }
+
+    .clearleft {
+        clear:both;
+    }
+    
+    .clearright {
+        clear:right;
+    }
+
+    #YTSearchBtn {
+        float:right;
+        position: fixed;
+        right: 0px;
+        margin-top: 7px;
+        margin-right:75px;
+        width:64px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    div.YTSearchField {
+        transition: 1s;
+        height:40px;
+        position: fixed;
+        left:0px;
+        top:48px;
+        width:100%;
+        z-index: 10;
+        box-shadow: 0px 15px 20px #000000;
+        
+    }
+    
+    div.YTSearchField.hidden {
+        transition: 1s;
+        top:0px;
+    }
+    
+    div.volume-slider.hidden {
+        transition: 1s;
+        top:0px;
+    }
+    
+    div.volume-slider {
+        transition: 1s;
+        height:32px;
+        background-color:#131313;
+        /*border: 2px solid #535353;*/
+        border-top:0px;
+        position: fixed;
+        top:48px;
+        z-index: 10;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 5px 10px 20px #000000;
+        width:150px;
+    }
+    
+    input.volume-slider {
+        width: 100px;
+        float:left;
+    }
+    
+    .volumeAmt {
+        width:30px;
+        height: 32px;
+        padding:0px 3px;
+        float:left;
+    }
+    
+    
+    .nowidth {
+        width:0px !important;
+    }
+    
+    
+    input.YTSearchField {
+        width:100%;
+        height:38px;
+        background-color: #535353;
+        border:0px;
+        padding:2px;
+        font-size:1.5em;
+    }
+    
+    .hmbgr_btn {
+        float:right;
+        position: fixed;
+        right: 0px;
+        margin-top: 7px;
+        margin-right:10px;
+        width:64px;
+        text-align: center;
+        font-size:1.5em;
+    }
+    
+    .hmbgr_menu {
+        background-color:#131313;
+        border:1px solid white;
+        width: 100%;
+        max-width: 300px;
+        z-index: 1000;
+        float:right;
+        position: absolute;
+        right:0px;
+        top:48px;
+        overflow:hidden;
+    }
+    
+
+
+    
+    .hostControls {
+        float:left;
+        font-size: 1.5em;
+        margin-top:10px;
+    }
+    
+    #PP {
+        background: 
+    }
+    
+    #skip {
+    }
+    
+    #voteSkip {
+    }
+    
+    .control {
+        float:left;
+        margin-left:15px;
+    }
+    
+    .icon {
+        cursor: pointer;
+        
+    }
+    
+    .iconDown {
+        color:#535353;
+    }
+    
+
+    .hmbgr_menuItem {
+        font-size: 2em;
+        padding: 0px;
+        border-bottom: 1px solid white;
+        min-width: 100%;
+        overflow: hidden;
+    }
+    
+    .menuText {
+        margin-left: 15px;
+    }
+    
+    #YTplayback {
+        max-width: 720px;
+        margin:auto;
+    }
+    
+    /*
+    #YTPlayback {
+        max-width: 720px;
+        max-height: 405px !important;
+        margin:auto;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height:0;
+        
+    }
+    
+    #YTPlayback iframe {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+    }
+    
+    embed {
+        max-height: 405px !important;
+    }
+    */
+    
+    .smallScreenFix {
+        display: none;
+    }
+    
+    .log {
+        color:red;
+    }
+    
+    .YTAutoCompleteDiv {
+        position:absolute;
+        top:90px;
+        border:1px solid white;
+        width: 100%;
+        background-color:lightgray;
+        z-index: 11;
+    }
+    
+    ul.YTAutoComplete {
+        list-style-type: none;
+        margin:5px 0px;
+        padding-left: 5px;
+    }
+    
+    .highlighted {
+        background-color:gray;
+    }
+    .YTSearchSuggestion {
+        
+    }
+    
+}
+
+
+
+@media (max-width:600px) {
+    #hostControlsTop {
+        display: none;
+    }
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:300px) {
+    .menuItem {
+        font-size: 1em;
+    }
+    
+    .smallScreenFix {
+        display: block;
+    }
+    
+    .YTthumb {
+        display: none;
+    }
+    
+    #NowPlaying:after {
+        content: " :";
+    }
+}
